@@ -1,0 +1,66 @@
+/* .dropdown ~ li a:hover{
+    opacity: 0.8;
+} */
+
+/* contains majority of other div containers within --
+ later other divs could base their position off of this to position  */
+.flex-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.form-search{
+    width:70%;
+    margin:auto;
+}
+
+.carousel{
+    width:700px;
+    height:400px;
+    /* display: flex;
+    justify-content:center; */
+    margin:auto;
+    /* padding-top:5%; */
+    box-shadow: 10px 10px 12px 5px;
+    opacity: 0.9;
+  }
+
+.progress-container{
+    /* places container bottom left */
+    margin-top:auto;
+    align-self:start;
+    
+    width: 40%; /* Adjust width as needed */
+    border: 5px solid black;
+    color:aliceblue;
+    background-color:burlywood;
+}
+
+.progress-container > p{
+    color:black;
+}
+
+.row{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-30%);
+    width: 800px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    background-color: lightblue; /* For visibility */
+}
+
+.offcanvas-container{
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    display:flex;
+    justify-content: end;
+    
+    
+}
+
+body{
+    overflow-x:hidden;
+    background-color:grey;
+}
