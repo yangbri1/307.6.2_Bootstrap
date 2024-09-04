@@ -61,6 +61,6 @@
 }
 
 body{
-    overflow-x:hidden;
+    overflow-x:hidden; /* no one likes horizontal scroll ...  */
     background-color:grey;
 }
